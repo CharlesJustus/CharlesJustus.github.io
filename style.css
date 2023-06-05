@@ -1,5 +1,5 @@
 body {
-    background: rgb(125, 198, 205);
+    background: rgb(127, 215, 223);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -23,6 +23,7 @@ h1 {
     color: white;
     flex: 1;
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #nav-ul {
     list-style-image: none;
@@ -43,7 +44,7 @@ main {
 }
 .sidebar {
     margin-right: 25px;
-    padding: 10px;
+    padding: 8px;
 }
 .sidebar-img {
     width: 200px;
@@ -55,9 +56,22 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
-    padding: 8px;
+    border: 4px rgb(0, 255, 55) ridge;
+    padding: 10px;
 }
 h2, h3 {
     margin: 0px;
 }
+.new-p{background-color:honeydew;
+     margin:auto;
+     width: 50%;
+     border: 3px solid green;
+     padding: 10px;
+     font-size:30px;
+   }
+   #turtle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 500px;
+height: 300px;}
