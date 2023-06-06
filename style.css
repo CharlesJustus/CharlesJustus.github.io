@@ -4,19 +4,21 @@ body {
     padding: 10px;
     font-family: arial;
 }
+
 #all-contents {
-  max-width: 800px;
+    max-width: 800px;
     margin: auto;
 }
 
 /* navigation menu */
 nav {
     background: rgb(239, 80, 41);
-   margin: 0 auto;
-   margin-bottom: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
+
 h1 {
     display: flex;
     align-items: center;
@@ -25,13 +27,16 @@ h1 {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 #nav-ul {
     list-style-image: none;
 }
+
 .nav-li {
     display: inline-block;
     padding: 0 10px;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -42,13 +47,16 @@ main {
     background: rgb(245, 238, 219);
     display: flex;
 }
+
 .sidebar {
     margin-right: 25px;
     padding: 8px;
 }
+
 .sidebar-img {
     width: 200px;
 }
+
 .content {
     flex: 1;
     padding: 15px;
@@ -59,19 +67,101 @@ main {
     border: 4px rgb(0, 255, 55) ridge;
     padding: 10px;
 }
-h2, h3 {
+
+h2,
+h3 {
     margin: 0px;
 }
-.new-p{background-color:honeydew;
-     margin:auto;
-     width: 50%;
-     border: 3px solid green;
-     padding: 10px;
-     font-size:30px;
-   }
-   #turtle{
+
+.new-p {
+    background-color: honeydew;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#turtle {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   width: 500px;
-height: 300px;}
+    width: 500px;
+    height: 300px;
+}
+
+/* portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
+}
+
+/* responsive web design */
+@media screen and (min-width: 120px) and (max-width: 1080px) {
+    main {
+        height: 100ch;
+        zoom: 1.5;
+        display: grid;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    #all-contents {
+        height: 100ch;
+        margin: none;
+    }
+
+    a {
+        font-size: 42px;
+    }
+
+    .sidebar {
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-img {
+        width: 100%;
+    }
+
+    p,
+    li {
+        font-size: 24px;
+    }
+
+    .content {
+        align-content: center;
+        justify-content: center;
+    }
+}
