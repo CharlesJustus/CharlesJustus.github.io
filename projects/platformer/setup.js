@@ -93,7 +93,7 @@ let animationDetails = {};
 var collectableList = {
   database: { image: "https://avatars3.githubusercontent.com/u/64094321" },
   diamond: { image: "https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg" },
-  grace: { image: "images/collectables/grace-head.png" },
+  grace: { image: "https://cdn.britannica.com/34/78134-050-3AC7D4F8/Abraham-Lincoln-photograph-Mathew-Brady.jpg?w=400&h=300&c=crop" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
