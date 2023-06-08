@@ -91,8 +91,8 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  database: { image: "https://avatars3.githubusercontent.com/u/64094321" },
+  diamond: { image: "https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
