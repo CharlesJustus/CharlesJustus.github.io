@@ -80,6 +80,7 @@ const collectableWidth = 40;
 const collectableHeight = 40;
 let collectables = [];
 
+
 // canvas and context variables; must be initialized later
 let canvas;
 let ctx;

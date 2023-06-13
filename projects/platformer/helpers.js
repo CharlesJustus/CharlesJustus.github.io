@@ -475,7 +475,9 @@ function drawCollectables() {
     } else {
       //draw the icons at the top if collected
       if (collectables[i].alpha > 0.4) {
-        collectables[i].alpha = collectables[i].alpha - 0.007;
+        collectables[i].alpha = collectables[i].alpha - 0.007; 
+
+        playerJumpStrength = 15;
       }
       ctx.globalAlpha = collectables[i].alpha;
       ctx.drawImage(
@@ -517,6 +519,7 @@ function collectablesCollide() {
       collectables[i].y + collectableHeight > player.y
     ) {
       collectables[i].collected = true;
+      
     }
   }
 }
